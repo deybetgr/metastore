@@ -1,0 +1,23 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "pm2-runtime start ecosystem.config.js --env production",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Deybet García Rivera",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.2.1",
+		"express-validator": "^6.13.0",
+		"helmet": "^4.6.0",
+		"imagekit": "^3.2.3",
+		"mongodb": "^4.2.0",
+		"pm2": "^5.1.2",
+		"sharp": "^0.29.3"
+	}
+}
